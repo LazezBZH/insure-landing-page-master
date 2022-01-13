@@ -1,7 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+body {
+  max-width: 1440px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Karla", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+.header-right {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
+
+/* header */
+.header-right_border {
+  border: solid 2px black;
+}
+.header-right_border:hover {
+  color: white;
+  background-color: black;
+}
+
+/* intro */
+.intro {
+  position: relative;
+  display: flex;
+  height: 38rem;
+  font-family: "DM Serif Display", serif;
+}
+.intro-left {
+  /* background-image: url("../../images/bg-pattern-intro-left-desktop.svg"); */
+  background-color: hsl(256, 26%, 20%);
+  color: hsl(0, 0%, 98%);
+}
+.intro-right {
+  width: 40rem;
+  /* background-image: url("../../images/bg-pattern-intro-right-desktop.svg"); */
+  background-color: hsl(256, 26%, 20%);
+}
+.intro-img_1 {
+  width: 12%;
+  position: absolute;
+  left: 0;
+  top: 28.5rem;
+}
+.intro-img_2 {
+  width: 28rem;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: 1rem -5rem;
+  position: absolute;
+  right: 0;
+}
+.intro-img_3 {
+  width: 34rem;
+  position: absolute;
+  right: 10rem;
+  top: 6.5rem;
+}
+h1 {
+  font-size: 4.3rem;
+  font-weight: 400;
+  /* letter-spacing: 0.2rem; */
+  width: 50%;
+  margin-left: 10rem;
+  margin-bottom: 1.8rem;
+  margin-top: 4rem;
+  line-height: 1;
+}
+.intro p {
+  width: 53%;
+  margin-left: 10rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  font-weight: lighter;
+  line-height: 1.6;
+}
+.strike {
+  width: 10rem;
+  border-top: 0.15rem solid hsl(0, 0%, 98%);
+  margin-top: 6rem;
+  margin-left: 10rem;
+}
+button {
+  background-color: hsl(0, 0%, 98%);
+  padding: 0.8rem 1.8rem;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: hsl(273, 4%, 51%);
 }
